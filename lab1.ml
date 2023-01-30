@@ -607,7 +607,7 @@ let rec factorial (x : int) =
 
 (*......................................................................
 Exercise 14: Define a recursive function `sum_from_zero` that sums all
-the elements between 0 and the input.
+the integers between 0 and the input, inclusive.
 
    # sum_from_zero 5 ;;
    - : int = 15
@@ -653,7 +653,7 @@ let rec sum_from_zero (x : int) : int =
 
    In this exercise, we were explicitly looking for this recursive
    solution. However, there's a closed-form solution for the sum, the
-   one that Gauss himself used (see footnote 7 in Chapter 14 of the
+   one that Gauss himself used (see Figure 14.6 in Chapter 14 of the
    textbook), that we can use to generate the following non-recursive
    version.
 
